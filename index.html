@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Adapt Vision CDN example</title>
+    <link
+      rel="stylesheet"
+      href="https://sdk.a-dapt.com/vision/0.1.1/style.css"
+    />
+  </head>
+  <body>
+    <div id="app"></div>
+    <script src="https://sdk.a-dapt.com/vision/0.1.1/AdaptVision.umd.js"></script>
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        AdaptVision.vision("#app", {
+          licenseKey: "YOUR_LICENSE_KEY_HERE", // <-- Replace with your license key
+        });
+        AdaptVision.initialize();
+      });
+    </script>
+  </body>
+</html>

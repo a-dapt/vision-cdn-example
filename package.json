@@ -1,0 +1,8 @@
+{
+  "name": "vision-cdn-example",
+  "version": "1.0.0",
+  "description": "Adapt vision CDN example",
+  "devDependencies": {
+    "serve": "^14.2.1"
+  }
+}
