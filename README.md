@@ -40,6 +40,7 @@ Before you begin, ensure you have the following installed:
      document.addEventListener("DOMContentLoaded", function () {
        AdaptVision.vision("#app", {
          licenseKey: "YOUR_LICENSE_KEY_HERE", // <-- Replace with your license key
+         showOptions: true, // Show / Hide options modal
        });
        AdaptVision.initialize();
      });
